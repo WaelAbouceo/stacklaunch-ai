@@ -1,0 +1,22 @@
+# SearXNG config for StackLaunch's retrieval fallback.
+# JSON output is enabled, the rate limiter is off, and we keep only a few
+# reliable engines so a flaky default engine (e.g. wikidata) can't break search.
+use_default_settings:
+  engines:
+    keep_only:
+      - duckduckgo
+      - google
+      - bing
+      - brave
+
+server:
+  secret_key: "stacklaunch-dev-secret-change-me"
+  limiter: false
+  public_instance: false
+  image_proxy: false
+
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json
