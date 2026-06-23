@@ -1,6 +1,15 @@
 # StackLaunch AI
 
-[![CI](https://github.com/WaelAbouceo/stacklaunch-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/WaelAbouceo/stacklaunch-ai/actions/workflows/ci.yml)
+<p align="center">
+  <img src="docs/og-preview.png" alt="StackLaunch AI — sovereign agentic AI stack for regulated industries" width="820" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/WaelAbouceo/stacklaunch-ai/actions/workflows/ci.yml"><img src="https://github.com/WaelAbouceo/stacklaunch-ai/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/python-3.12-3776ab.svg" alt="Python 3.12" />
+  <img src="https://img.shields.io/badge/react-19-61dafb.svg" alt="React 19" />
+</p>
 
 Turn any website into a governed enterprise AI stack demo.
 
